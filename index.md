@@ -47,6 +47,7 @@ See below for helpful links:
 
 ## Documentation ###
 * [doxygen](doxygen): Auto-generated from the source code, updated nightly
+* [Documentation for Analysers](AnalysisDocumentation/index.md)
 
 ## Operations ##
 * [ICARUS Operations](Operations/SBN_FD/index)
