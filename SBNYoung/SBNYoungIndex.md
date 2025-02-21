@@ -27,8 +27,10 @@ Thanks to the authors of the SBND & ICARUS Newbie Guides from which we ported so
   *How to navigate the wonderful world of git*
 - [Doxygen](Using_Doxygen.md)  
   *How to create documentation for SBN object libraries*
-- [Using the Grid](Grid_Intro.md)  
+- [Using the Grid](https://sbnsoftware.github.io/sbndcode_wiki/Using_projectpy_for_grid_jobs.html)  
   *How to submit jobs to the FNAL grid computing system*
+- [Best practises for disk storage at Fermilab](Disk_Storage.md)
+  *How to correctly use the various disks at Fermilab to store your files*
 - [Particle gun and analyzer modules](particle_gun_tut.md)  
   *Writing a simple fcl to produce particles and how to analyze the output using larsoft files*
 
