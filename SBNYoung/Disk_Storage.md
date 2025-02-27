@@ -13,16 +13,17 @@ There are two areas that contain storage disks from SBN experiments. These are:
 - /pnfs/: This disk can talk to the Grid, so all inputs and outputs from grid jobs are stored here
 - /exp/: This disk cannot talk to the Grid, so it is used for local development of code, running local scripts, and storage of histogram files
 
-There are multiple disks that exist in each of these areas. These are experiment dependent, but will have the same general structure. The uses of these disks are:
+There are multiple disks that exist in each of these areas. These are experiment dependent, but will have the same general structure. The disks you will use the most are:
 
--/pnfs/[experiment]/scratch/
+- /pnfs/[experiment]/scratch/
+- /pnfs/[experiment]/resilient/
+- /pnfs/[experiment]/persistent/
+- /exp/[experiment]/app/
+- /exp/[experiment]/data/
 
-## Outputs from the Grid
-All outputs from the grid 
+Where [experiment] can be sbnd, icarus or sbn. 
 
+### Scratch Disk
+The scratch disk is a temporary storage disk that will auto-delete files after a period of non-usage. 
 
-### Title
-Contents contents contents
-### Title
-Contents contents contents
 
